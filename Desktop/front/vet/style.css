@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Futura New';
+    src: url(/fonts/FuturaNewHeavy-Reg.ttf);
+}
+
+div, 
+button {
+ box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+  }
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-wrapper {
+    max-width: 1750px;
+    margin: 65px auto;
+}
+
+.into-section {
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.location_button {
+    align-items: center;
+    background: transparent;
+    border: none;
+    display: flex;
+}
+
+.location-city {
+    color: #FFC59E;
+    font-family: 'Futura New', 'Arial', 'Times New Roman', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav_btn {
+    background: transparent;
+    border: none;
+}
+
+.nav-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_item {
+    color: #C3B9B5;
+    font-family: 'Futura New', 'Arial', 'Times New Roman', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 921px;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
